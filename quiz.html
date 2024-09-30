@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game App</title>
+    <link rel ="stylesheet" href ="quiz.css">
+</head>
+<body>
+    <div id ="container">
+        <div id ="quiz-container">
+            <p id ="question"></p>
+            <div id ="option-container"></div>
+            <div id = "next-btn-container">    
+                <button id = "next-btn">Next Question ➡️</button>
+              </div>
+        </div>
+      <button id="start-btn" onclick="startQuiz()"> WELCOME TO QUIZ</button>
+      <div id="quiz-completed">
+        <img src ="https://i.pinimg.com/originals/3e/b5/f3/3eb5f331f37731fb9ce9def5cbf445fe.gif">
+        <h1>GAME OVER</h1>
+        <h2>Thank you for playing Well :) 🎉🎊</h2>
+        <p>Your final score:</p>
+        <p id="final-score"></p>
+      </div>
+  </div>
+   <script src="quiz.js"></script> 
+</body>
+</html>
